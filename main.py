@@ -6,7 +6,7 @@ from collections import defaultdict
 from pprint import pprint
 
 
-excel_data_df = pandas.read_excel('wine3.xlsx', sheet_name='Лист1', na_values='', keep_default_na=False)
+excel_data_df = pandas.read_excel('wine.xlsx', sheet_name='Лист1', na_values='', keep_default_na=False)
 excel_data_df = excel_data_df.fillna('')
 categorized_wine = defaultdict(list)
 
